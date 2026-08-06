@@ -1,0 +1,102 @@
+html {
+  background-color: rgb(220, 238, 245);
+}
+
+* {
+  font-family: Gabarito;
+}
+
+h1 {
+  font-family: Gabarito;
+  color: rgb(34, 34, 34);
+  margin-top: 50px;
+  background-color: rgb(188, 207, 224);
+  padding: 20px
+}
+
+.App {
+  text-align: center;
+}
+
+#userform {
+  padding: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: center;
+}
+
+.form-input {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+label {
+  padding: 10px;
+}
+
+input {
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 15px;
+}
+
+button {
+  margin: 10px;
+  padding: 3px 10px;
+  font-size: 17px;
+  background-color: rgb(178, 186, 204);
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(127, 138, 161);
+}
+
+.usersearch {
+  margin-top: 10px;
+}
+
+#founduser {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 15px;
+}
+
+.user {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr auto;
+  align-items: center;
+  column-gap: 20px;
+
+  padding: 5px 10px;
+  min-width: 400px;
+  background-color: #eff7f8;
+  border: 1px solid #ffffff;
+  border-radius: 7px;
+}
+
+.userlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.userlist button {
+  color: rgb(75, 12, 12);
+  background-color: rgb(173, 60, 60);
+  border-radius: 48%;
+  border-color: rgb(161, 161, 161);
+  margin: 0 0 0 0;
+  padding: 1px 6px;
+}
+
+.userlist button:hover {
+  color: white;
+  background-color: rgb(206, 168, 168);
+  cursor: pointer;
+}
